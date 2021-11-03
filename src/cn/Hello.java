@@ -28,6 +28,19 @@ public class Hello {
 		//布尔型boolean
 		System.out.println(true);
 		System.out.println(false);
+		//字符型
+		char aaa = 'A';
+		System.out.println(aaa);
+		System.out.println('中');
+		System.out.println('a'+2);
+		System.out.println('A'+0);
+		System.out.println('0'+0);
+		//转义字符
+		System.out.println("'");
+		System.out.println("\"");
+		System.out.println("\\");
+		System.out.println("\65");
+		System.out.println("\u0035");
 	}
 
 }
